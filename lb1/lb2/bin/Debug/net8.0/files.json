@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "doc_report.pdf",
+    "Created": "2023-03-10T09:30:00",
+    "AccessCount": 12,
+    "SizeBytes": 158723
+  },
+  {
+    "Name": "data.db",
+    "Created": "2021-11-05T14:00:00",
+    "AccessCount": 45,
+    "SizeBytes": 20485760
+  },
+  {
+    "Name": "notes.txt",
+    "Created": "2024-01-20T08:15:00",
+    "AccessCount": 7,
+    "SizeBytes": 1024
+  },
+  {
+    "Name": "archive.zip",
+    "Created": "2022-06-01T12:00:00",
+    "AccessCount": 3,
+    "SizeBytes": 987654321
+  },
+  {
+    "Name": "presentation.pptx",
+    "Created": "2023-12-12T17:05:00",
+    "AccessCount": 20,
+    "SizeBytes": 5242880
+  }
+]

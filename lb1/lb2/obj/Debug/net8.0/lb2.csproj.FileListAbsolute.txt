@@ -1,0 +1,14 @@
+E:\programs\SMOOP\lb2\lb2\bin\Debug\net8.0\lb2.exe
+E:\programs\SMOOP\lb2\lb2\bin\Debug\net8.0\lb2.deps.json
+E:\programs\SMOOP\lb2\lb2\bin\Debug\net8.0\lb2.runtimeconfig.json
+E:\programs\SMOOP\lb2\lb2\bin\Debug\net8.0\lb2.dll
+E:\programs\SMOOP\lb2\lb2\bin\Debug\net8.0\lb2.pdb
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.GeneratedMSBuildEditorConfig.editorconfig
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.AssemblyInfoInputs.cache
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.AssemblyInfo.cs
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.csproj.CoreCompileInputs.cache
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.dll
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\refint\lb2.dll
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.pdb
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\lb2.genruntimeconfig.cache
+E:\programs\SMOOP\lb2\lb2\obj\Debug\net8.0\ref\lb2.dll

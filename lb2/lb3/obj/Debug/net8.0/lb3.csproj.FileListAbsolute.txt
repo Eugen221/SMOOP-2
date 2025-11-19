@@ -1,0 +1,14 @@
+E:\programs\SMOOP\lb3\lb3\bin\Debug\net8.0\lb3.exe
+E:\programs\SMOOP\lb3\lb3\bin\Debug\net8.0\lb3.deps.json
+E:\programs\SMOOP\lb3\lb3\bin\Debug\net8.0\lb3.runtimeconfig.json
+E:\programs\SMOOP\lb3\lb3\bin\Debug\net8.0\lb3.dll
+E:\programs\SMOOP\lb3\lb3\bin\Debug\net8.0\lb3.pdb
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.GeneratedMSBuildEditorConfig.editorconfig
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.AssemblyInfoInputs.cache
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.AssemblyInfo.cs
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.csproj.CoreCompileInputs.cache
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.dll
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\refint\lb3.dll
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.pdb
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\lb3.genruntimeconfig.cache
+E:\programs\SMOOP\lb3\lb3\obj\Debug\net8.0\ref\lb3.dll
