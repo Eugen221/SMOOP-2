@@ -1,0 +1,93 @@
+﻿<Window x:Class="LR4_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ЛР4" Height="820" Width="920">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="12">
+
+            <!-- Задание 1 -->
+            <GroupBox Header="1) Привіт / До побачення" Margin="0,0,0,12">
+                <StackPanel Margin="8">
+                    <Label x:Name="LblGreeting" Content="Початок роботи" FontSize="16" Margin="0,0,0,8"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Привіт" Width="120" Click="BtnHello_Click" Margin="4"/>
+                        <Button Content="До побачення" Width="120" Click="BtnBye_Click" Margin="4"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Задание 2 -->
+            <GroupBox Header="2) Показати / Сховати TextBlock" Margin="0,0,0,12">
+                <StackPanel Margin="8">
+                    <TextBlock x:Name="TbExample" Text="Це довільний текст у TextBlock" FontSize="15" Margin="0,0,0,8"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Сховати" Width="120" Click="BtnHideTextBlock_Click" Margin="4"/>
+                        <Button Content="Показати" Width="120" Click="BtnShowTextBlock_Click" Margin="4"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Задание 3 -->
+            <GroupBox Header="3) Приховати / Показати / Очистити TextBox" Margin="0,0,0,12">
+                <StackPanel Margin="8">
+                    <TextBox x:Name="TbInput" Height="30" FontSize="15" Margin="0,0,0,8"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Приховати" Width="120" Click="BtnHideTextBox_Click" Margin="4"/>
+                        <Button Content="Показати" Width="120" Click="BtnShowTextBox_Click" Margin="4"/>
+                        <Button Content="Очистити" Width="120" Click="BtnClearTextBox_Click" Margin="4"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Задание 4 — игра -->
+            <GroupBox Header="4) Гра — приховай усі кнопки" Margin="0,0,0,12">
+                <StackPanel Margin="8">
+                    <TextBlock Text="Натискай кнопки — при натисканні кнопка і її сусід змінюють видимість." FontStyle="Italic" Margin="0,0,0,8"/>
+                    <WrapPanel x:Name="GameButtonsPanel">
+                        <!-- Пять кнопок с разным стилем -->
+                        <Button x:Name="G1" Content="A" Width="80" Height="38" Background="Tomato" Foreground="White" Click="GameButton_Click" Margin="4"/>
+                        <Button x:Name="G2" Content="B" Width="80" Height="38" Background="LightSeaGreen" Foreground="Black" Click="GameButton_Click" Margin="4"/>
+                        <Button x:Name="G3" Content="C" Width="80" Height="38" Background="Gold" Foreground="Black" Click="GameButton_Click" Margin="4"/>
+                        <Button x:Name="G4" Content="D" Width="80" Height="38" Background="SlateBlue" Foreground="White" Click="GameButton_Click" Margin="4"/>
+                        <Button x:Name="G5" Content="E" Width="80" Height="38" Background="Gray" Foreground="White" Click="GameButton_Click" Margin="4"/>
+                    </WrapPanel>
+                    <Button Content="Скинути гру" Width="120" Margin="6,8,0,0" Click="ResetGame_Click"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Задание 5 — фунты → килограммы -->
+            <GroupBox Header="5) Фунти → Кілограми" Margin="0,0,0,12">
+                <StackPanel Margin="8" Width="320">
+                    <TextBlock Text="Введіть вагу в фунтах (lbs):" Margin="0,0,0,6"/>
+                    <TextBox x:Name="PoundsBox" Height="28" Margin="0,0,0,8"/>
+                    <Button Content="Перевести" Width="120" Click="ConvertPounds_Click" Margin="0,0,0,8"/>
+                    <TextBlock x:Name="KgResult" FontWeight="Bold"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Задание 6 — кнопки, занимающие 2/3 ширины -->
+            <GroupBox Header="6) Кольорові кнопки (ліва частина займає 2/3 ширини)" Margin="0,0,0,12">
+                <Grid Height="260">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Ліва частина: WrapPanel (кнопки) -->
+                    <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto">
+                        <WrapPanel x:Name="ColorsWrapPanel" Margin="4"/>
+                    </ScrollViewer>
+
+                    <!-- Права частина: проста панель -->
+                    <Border Grid.Column="1" BorderBrush="DarkGray" BorderThickness="1" Margin="4">
+                        <StackPanel Margin="8">
+                            <TextBlock Text="Права панель (1/3 ширини)" FontWeight="Bold"/>
+                            <TextBlock Text="Можете додати налаштування тут." TextWrapping="Wrap" Margin="0,6,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </GroupBox>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
